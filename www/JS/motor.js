@@ -15,6 +15,6 @@ alert("Inserido");
 function exibir(){
     if (localStorage.getItem("Lnome") == localStorage.getItem("nome") && localStorage.getItem("Lsenha") == localStorage.getItem("senha"))
     {
-                document.getElementById("ata").textContent = "Parabéns tu recebeu MB";
+                document.getElementById("erro").textContent = "Parabéns você recebeu MB";
     }
 }
