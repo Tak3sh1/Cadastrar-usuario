@@ -5,7 +5,6 @@ localStorage.setItem("senha", document.getElementById("coletortexto2").value);
 
 alert("Inserido");
 }
-
     function carregar2() {
 
     localStorage.setItem("Lnome", document.getElementById("loginNome").value);
